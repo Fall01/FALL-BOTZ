@@ -12,15 +12,18 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 ```bash
 > download termux
 > buka
-> pkg install git
-> pkg install ffmpeg
-> pkg install nodejs
+> termux-setup-storage
 > apt update && apt upgrade
+> pkg install git
 > git clone https://github.com/Fall01/FALL-BOTZ
 > cd FALL-BOTZ
+> pkg install nodejs
+> pkg install ffmpeg
+> npm i -g cwebp
+> npm i -g ytdl && npm i && npm i got
 > bash install.sh
 > node index.js
-```
+
 
 
 # FITUR
